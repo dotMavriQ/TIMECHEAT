@@ -65,3 +65,27 @@ document.getElementById('print').addEventListener('click', function() {
         console.error('Failed to copy results: ', err);
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const now = new Date();
+    const currentYear = now.getFullYear();
+    const currentMonth = now.getMonth() + 1; // JavaScript months are 0-indexed
+
+    // Populate year dropdown dynamically or set the current year as selected
+    const yearSelect = document.getElementById('year');
+    for (let year = currentYear; year <= currentYear + 5; year++) { // Example range: current year to current year + 5
+        const option = document.createElement('option');
+        option.value = year;
+        option.text = year;
+        option.selected = year === currentYear;
+        yearSelect.appendChild(option);
+    }
+
+    // Set the current month as selected
+    const monthSelect = document.getElementById('month');
+    monthSelect.value = currentMonth;
+
+    // Your existing code to handle the "PRINT" button click...
+    document.getElementById('print').addEventListener('click', function() {
+        // Existing functionality...
+    });
+});
