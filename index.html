@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMECHEAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #2E3440;
+            color: #D8DEE9;
+        }
+        .bg-image {
+            background-image: url('https://nik.bot.nu/o3759183.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -10;
+        }
+        .card {
+            position: relative;
+            background-color: #3B4252;
+            backdrop-filter: blur(10px);
+            color: #ECEFF4;
+            z-index: 10;
+        }
+        select, button {
+            border-color: #4C566A;
+        }
+        button {
+            background-color: #5E81AC;
+        }
+        button:hover {
+            background-color: #81A1C1;
+        }
+        #result {
+            max-height: 300px;
+            overflow-y: auto;
+            background-color: #434C5E;
+            color: #ECEFF4;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 20;
+        }
+        .logo img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .logo:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            mix-blend-mode: darken;
+            border-radius: 10px;
+        }
+    </style>    
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen bg-image">
+    <div class="container mx-auto">
+        <div class="card bg-white p-8 rounded-lg shadow-lg relative">
+            <div class="logo">
+                <img src="timecheat.png" alt="TIMECHEAT Logo">
+            </div>
+            <div class="mb-4">
+                <label for="year" class="block text-white text-sm font-bold mb-2">Year</label>
+                <select id="year" class="shadow border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="month" class="block text-white text-sm font-bold mb-2">Month</label>
+                <select id="month" class="shadow border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>                    
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="holidayArea" class="block text-white text-sm font-bold mb-2">Holiday Area</label>
+                <select id="holidayArea" class="shadow border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="lisbon">Portugal (Lisbon Area)</option>
+                    <option value="setubal">Portugal (Setubal Area)</option>
+                </select>
+            </div>
+            <button id="print" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">PRINT</button>
+            <div id="result" class="mt-4 p-3 bg-gray-200 rounded shadow-inner"></div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
