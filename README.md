@@ -12,7 +12,8 @@ Welcome to TIMECHEAT, a web application crafted with appreciation and love, stre
 - **Customization:** Pick the year, month, and your holiday area with ease.
 - **Instant Print:** Press "Print" to have the timesheet copied to your clipboard. Additionally, you could choose what you need from the printout in the div under the print button.
 - **Smart Highlighting:** Then you paste that into your Excel, highlights weekends and holidays, making them easy to identify and modify in your spreadsheet.
-- **Efficient Editing:** Use the Ctrl + H search and replace (weekend) and (holiday) to remove markers for a cleaner aesthetic. Boom, you're done and ready to log times for that month!
+- **Efficient Editing:** Use `Ctrl + H` to search and replace (weekend!) and (holiday!) in order to remove markers for a cleaner aesthetic.
+- Boom, you're done and ready to log times for that month!
 
 ## FAQ
 
