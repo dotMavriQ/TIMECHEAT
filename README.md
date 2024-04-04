@@ -1,6 +1,6 @@
 # TIMECHEAT
 
-Welcome to TIMECHEAT, a web application crafted with appreciation and love for teams everywhere, streamlining the timesheet completion process. Developed by Jonatan Jansson in 2024, this tool is specially dedicated to the five-letter Portugal team, aiming to save time and reduce hassle in timesheet management.
+Welcome to TIMECHEAT, a web application crafted with appreciation and love, streamlining the timesheet completion process. Developed by Jonatan Jansson in 2024, this tool is specially dedicated to the five-letter Portugal team, aiming to save time and reduce hassle in timesheet management.
 
 ## Steps
 
