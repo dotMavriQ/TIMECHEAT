@@ -16,17 +16,18 @@ Welcome to TIMECHEAT, a web application crafted with appreciation and love, stre
 
 ## FAQ
 
-**Where did you gather the sources for the holidays?**
+#### **Where did you gather the sources for the holidays?**
 
 The holiday dates are sourced from the official spreadsheet for legal holidays for 2024, provided by the head of HR.
 
-**I think you may have missed a holiday?:**
+#### **I think you may have missed a holiday?:**
 
 The Weekend marker takes priority over the Holiday marker. 
 It is likely that your holiday falls on a weekend for the current year. 
 Unfortunately, this means it will not be marked separately as a holiday.
 
-**Can't you just do this with an Excel Formula or the date function?**
+#### **Can't you just do this with an Excel Formula or the date function?**
+
 You could achieve something similar, yes! 
 Excel Formulas can be very powerful.
 However, whenever they require "conditional logic" they are harder to produce than programming logic in most cases and rarely do they achieve precisely what you want them to with sufficient modularity like this solution. 
