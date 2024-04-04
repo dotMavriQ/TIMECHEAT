@@ -25,6 +25,7 @@ The holiday dates are sourced from the official spreadsheet for legal holidays f
 The Weekend marker takes priority over the Holiday marker. 
 It is likely that your holiday falls on a weekend for the current year. 
 Unfortunately, this means it will not be marked separately as a holiday.
+Hypothetically I could have made it state (weekend and holiday) but this is admittedly redundant and it would only add to necessary steps required to finish your spreadsheet swiftly.
 
 #### **Can't you just do this with an Excel Formula or the date function?**
 
