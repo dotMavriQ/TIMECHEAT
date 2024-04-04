@@ -7,7 +7,7 @@ Welcome to TIMECHEAT, a web application crafted with appreciation and love, stre
 
 ## Steps
 
-- **Copy from Previous:** Start by copying your pre-existing Excel timesheet tab for a previous month or use the template provided.
+- **Copy from Previous:** Start by copying your pre-existing Excel timesheet tab from a previous month or use the example template provided if you just started.
 - **Easy Steps:** Simply move the bottom marked row beyond 32 steps or so and proceed to TIMECHEAT.
 - **Customization:** Pick the year, month, and your holiday area with ease.
 - **Instant Print:** Press "Print" to have the timesheet copied to your clipboard. Additionally, you could choose what you need from the printout in the div under the print button.
