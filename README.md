@@ -2,6 +2,9 @@
 
 Welcome to TIMECHEAT, a web application crafted with appreciation and love, streamlining the timesheet completion process. Developed by Jonatan Jansson in 2024, this tool is specially dedicated to the five-letter Portugal team, aiming to save time and reduce hassle in timesheet management.
 
+### Available here:
+#### [dotmavriq.github.io/TIMECHEAT/](dotmavriq.github.io/TIMECHEAT/)
+
 ## Steps
 
 - **Copy from Previous:** Start by copying your pre-existing Excel timesheet tab for a previous month or use the template provided.
