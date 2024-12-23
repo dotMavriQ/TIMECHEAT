@@ -22,12 +22,16 @@
             z-index: -10;
         }
         .card {
-            position: relative;
-            background-color: #3B4252;
-            backdrop-filter: blur(10px);
-            color: #ECEFF4;
-            z-index: 10;
-        }
+  position: relative;
+  background-color: rgba(59, 66, 82, 0.85); /* Slightly transparent */
+  backdrop-filter: blur(10px); 
+  color: #ECEFF4;
+  z-index: 10;
+  padding: 1rem;             /* Some padding to keep content from touching edges */
+  border-radius: 8px;        /* Slightly rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow to lift the card */
+}
+
         select, button {
             border-color: #4C566A;
         }
